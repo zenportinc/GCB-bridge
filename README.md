@@ -1,4 +1,4 @@
-# GCB-Bridge v0.1.1
+# GCB-Bridge v0.1.2
 CI integration for Github App and Google Cloud Build
 
 [Docker Hub](https://hub.docker.com/r/zenportinc/gcb-bridge/)   
