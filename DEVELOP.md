@@ -18,5 +18,5 @@ Webhook Handling Flow :
 - Update CheckRun to `COMPLETED` when build is finished.
 
 ## Testing at local
-You will need `private.key` and `service-account.json` at project root. Prepare your own `my-test.sh` and execute it. Adjust $ENV at `my-test.sh` to control which part need to test. Check [my-test.sample.sh](https://github.com/NeoJRotary/GCB-bridge/blob/master/my-test.sample.sh) and [tests.sh](https://github.com/NeoJRotary/GCB-bridge/blob/master/tests.sh) for detail.   
+You will need `private.key` and `service-account.json` at project root. Prepare your own `my-test.sh` and execute it. Adjust $ENV at `my-test.sh` to control which part need to test. Check [my-test.sample.sh](https://github.com/zenportinc/GCB-bridge/blob/master/my-test.sample.sh) and [tests.sh](https://github.com/zenportinc/GCB-bridge/blob/master/tests.sh) for detail.   
 Some tests may need `github-event-headers.json` and `github-event-payload.json` to simulate contents of Github Webhook.

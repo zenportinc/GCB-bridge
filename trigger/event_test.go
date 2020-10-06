@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/NeoJRotary/GCB-bridge/app"
 	D "github.com/NeoJRotary/describe-go"
+	"github.com/zenportinc/GCB-bridge/app"
 	"gopkg.in/yaml.v2"
 )
 
@@ -17,7 +17,7 @@ func TestTrigger_Branch(t *testing.T) {
 	repo := &app.Repo{
 		Event:          "Branch",
 		InstallationID: "",
-		FullName:       "NeoJRotary/GCB-bridge-test",
+		FullName:       "zenportinc/GCB-bridge-test",
 		Branch:         "feature/newAPI",
 		// commit `only readme`
 		BeforeSHA: "0030064bce54a1051d4642771caed3b8edf2ad21",
@@ -35,7 +35,7 @@ func TestTrigger_Tag(t *testing.T) {
 	repo := &app.Repo{
 		Event:          "Tag",
 		InstallationID: "",
-		FullName:       "NeoJRotary/GCB-bridge-test",
+		FullName:       "zenportinc/GCB-bridge-test",
 		Tag:            "v1.3.1",
 	}
 
@@ -49,7 +49,7 @@ func TestTrigger_PullRequest(t *testing.T) {
 	repo := &app.Repo{
 		Event:          "PullRequest",
 		InstallationID: "",
-		FullName:       "NeoJRotary/GCB-bridge-test",
+		FullName:       "zenportinc/GCB-bridge-test",
 		Branch:         "develop",
 		BaseBranch:     "master",
 	}
@@ -64,7 +64,7 @@ func TestTrigger_AssociatedBase(t *testing.T) {
 	repo := &app.Repo{
 		Event:           "Branch",
 		InstallationID:  "",
-		FullName:        "NeoJRotary/GCB-bridge-test",
+		FullName:        "zenportinc/GCB-bridge-test",
 		Branch:          "develop",
 		AssociatedBases: []string{"master"},
 	}

@@ -24,7 +24,7 @@
 #   go-tests = true
 #   unused-packages = true
 
-ignored = ["github.com/NeoJRotary/GCB-bridge"]
+ignored = ["github.com/zenportinc/GCB-bridge"]
 
 [prune]
   go-tests = true

@@ -1,5 +1,5 @@
 #!/bin/bash
-REPO_NAME="neojrotary/gcb-bridge"
+REPO_NAME="zenportinc/gcb-bridge"
 
 if [ "$1" == "" ]
 then

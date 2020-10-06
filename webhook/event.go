@@ -5,10 +5,10 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/NeoJRotary/GCB-bridge/app"
-	"github.com/NeoJRotary/GCB-bridge/github"
-	"github.com/NeoJRotary/GCB-bridge/trigger"
 	D "github.com/NeoJRotary/describe-go"
+	"github.com/zenportinc/GCB-bridge/app"
+	"github.com/zenportinc/GCB-bridge/github"
+	"github.com/zenportinc/GCB-bridge/trigger"
 )
 
 type pullRequest struct {

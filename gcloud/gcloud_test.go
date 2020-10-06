@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/NeoJRotary/GCB-bridge/app"
 	"github.com/NeoJRotary/exec-go"
+	"github.com/zenportinc/GCB-bridge/app"
 )
 
 func TestGCloud(t *testing.T) {
@@ -25,7 +25,7 @@ func TestGCloud(t *testing.T) {
 	// PubSubPrintMessageData = true
 
 	repo := &app.Repo{
-		FullName: "NeoJRotary/GCB-bridge-test",
+		FullName: "zenportinc/GCB-bridge-test",
 		Branch:   "master",
 	}
 	if !repo.Init() {

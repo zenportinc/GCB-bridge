@@ -6,8 +6,8 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/NeoJRotary/GCB-bridge/app"
 	D "github.com/NeoJRotary/describe-go"
+	"github.com/zenportinc/GCB-bridge/app"
 	yaml "gopkg.in/yaml.v2"
 )
 

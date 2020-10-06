@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/NeoJRotary/GCB-bridge/app"
 	D "github.com/NeoJRotary/describe-go"
+	"github.com/zenportinc/GCB-bridge/app"
 )
 
 // DEBUG enable DEBUG to print log of trigger

@@ -6,11 +6,11 @@ import (
 	"os"
 	"sync"
 
-	// "github.com/NeoJRotary/GCB-bridge/git"
-	"github.com/NeoJRotary/GCB-bridge/app"
-	"github.com/NeoJRotary/GCB-bridge/github"
+	// "github.com/zenportinc/GCB-bridge/git"
 	D "github.com/NeoJRotary/describe-go"
 	exec "github.com/NeoJRotary/exec-go"
+	"github.com/zenportinc/GCB-bridge/app"
+	"github.com/zenportinc/GCB-bridge/github"
 )
 
 var (

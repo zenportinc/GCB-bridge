@@ -11,6 +11,6 @@ RUN mkdir -p "$GOPATH/src" "$GOPATH/bin" && chmod -R 777 "$GOPATH"
 
 # install and run dep
 RUN curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
-WORKDIR /go/src/github.com/NeoJRotary/GCB-bridge
+WORKDIR /go/src/github.com/zenportinc/GCB-bridge
 COPY Gopkg.* ./
 RUN dep ensure -vendor-only

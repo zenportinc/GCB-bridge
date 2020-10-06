@@ -1,4 +1,4 @@
 # Run test inside docker
-FROM neojrotary/gcb-bridge/test-base
+FROM zenportinc/gcb-bridge/test-base
 COPY . .
 CMD ["bash", "./tests.sh"]

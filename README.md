@@ -1,8 +1,8 @@
 # GCB-Bridge v0.1.1
 CI integration for Github App and Google Cloud Build
 
-[Docker Hub](https://hub.docker.com/r/neojrotary/gcb-bridge/)   
-`docker pull neojrotary/gcb-bridge`   
+[Docker Hub](https://hub.docker.com/r/zenportinc/gcb-bridge/)   
+`docker pull zenportinc/gcb-bridge`   
    
 ## Introduction
 ### Concept
@@ -97,7 +97,7 @@ Enviroment variables for runtime
   Enable DEBUG mode to print more information to console
 
 ## Develop
-If you want to know deep into project. Check [DEVELOP.md](https://github.com/NeoJRotary/GCB-bridge/blob/master/DEVELOP.md).
+If you want to know deep into project. Check [DEVELOP.md](https://github.com/zenportinc/GCB-bridge/blob/master/DEVELOP.md).
 
 ## What's Next
 - improve logging

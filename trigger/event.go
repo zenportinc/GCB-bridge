@@ -3,8 +3,8 @@ package trigger
 import (
 	"sync"
 
-	"github.com/NeoJRotary/GCB-bridge/app"
-	"github.com/NeoJRotary/GCB-bridge/gcloud"
+	"github.com/zenportinc/GCB-bridge/app"
+	"github.com/zenportinc/GCB-bridge/gcloud"
 )
 
 // EventHandler trigger event handler

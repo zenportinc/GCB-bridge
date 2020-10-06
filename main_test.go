@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/NeoJRotary/GCB-bridge/gcloud"
-	"github.com/NeoJRotary/GCB-bridge/trigger"
 	D "github.com/NeoJRotary/describe-go"
 	"github.com/NeoJRotary/describe-go/dhttp"
 	"github.com/NeoJRotary/exec-go"
+	"github.com/zenportinc/GCB-bridge/gcloud"
+	"github.com/zenportinc/GCB-bridge/trigger"
 )
 
 // TestMain integration test of [ webhook > trigger > gcloud > github ]

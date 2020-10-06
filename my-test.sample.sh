@@ -19,10 +19,10 @@ TEST_MAIN=1
 
 if [ "$1" = "--rebuild-base" ]
 then
-  docker build -t neojrotary/gcb-bridge/test-base -f test-base.Dockerfile .
+  docker build -t zenportinc/gcb-bridge/test-base -f test-base.Dockerfile .
 fi
 
-docker build -t neojrotary/gcb-bridge/test -f test.Dockerfile .
+docker build -t zenportinc/gcb-bridge/test -f test.Dockerfile .
 
 docker run --rm \
   -e GITHUB_APP_PRIVATE_KEY="$GITHUB_APP_PRIVATE_KEY" \
@@ -36,4 +36,4 @@ docker run --rm \
   -e TEST_TRIGGER="$TEST_TRIGGER" \
   -e TEST_GCLOUD="$TEST_GCLOUD" \
   -e TEST_MAIN="$TEST_MAIN" \
-  neojrotary/gcb-bridge/test
+  zenportinc/gcb-bridge/test

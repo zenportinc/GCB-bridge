@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
-	"github.com/NeoJRotary/GCB-bridge/app"
-	"github.com/NeoJRotary/GCB-bridge/gcloud"
-	"github.com/NeoJRotary/GCB-bridge/webhook"
 	D "github.com/NeoJRotary/describe-go"
 	"github.com/NeoJRotary/describe-go/dhttp"
+	"github.com/zenportinc/GCB-bridge/app"
+	"github.com/zenportinc/GCB-bridge/gcloud"
+	"github.com/zenportinc/GCB-bridge/webhook"
 )
 
 func init() {
