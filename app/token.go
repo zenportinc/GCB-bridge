@@ -79,9 +79,9 @@ func getToken(installationID string, current time.Time) string {
 
 	res, err := dhttp.Client(dhttp.TypeClient{
 		Method: "POST",
-		URL:    "https://api.github.com/installations/" + installationID + "/access_tokens",
+		URL:    "https://api.github.com/app/installations/" + installationID + "/access_tokens",
 		Header: map[string]string{
-			"Accept":        "application/vnd.github.machine-man-preview+json",
+			"Accept":        "application/vnd.github.v3+json",
 			"Authorization": "Bearer " + tokenString,
 		},
 	}).Do()
